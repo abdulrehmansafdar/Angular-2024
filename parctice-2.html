@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1st practice </title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+  <app-root></app-root>
+  <div ng-app="">
+    <p>Enter your name:</p>
+    <input type="text" ng-model="name">
+    //can be used as ng-bind and and angular expressions
+    <p >{{name}}</p>
+    //above works same as below
+    <p ng-bind="name"></p>
+  </div>
+
+</body>
+</html>
